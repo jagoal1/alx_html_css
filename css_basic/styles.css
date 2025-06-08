@@ -60,3 +60,47 @@ table td {
   border: 1px solid #ccc;
   text-align: center;
 }
+
+/* Logo style (already provided, you can customize) */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+/* Style header nav list */
+header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header li a:hover {
+  text-decoration: underline;
+}
+
+/* Extra styling inside article */
+article {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+
+/* Make headings pop */
+article h1, article h2, article h3 {
+  color: #2a6496;
+}
+
+/* Optional body background gradient */
+body {
+  background: linear-gradient(to right, #f9f9f9, #e0f7ff);
+}
