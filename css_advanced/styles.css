@@ -1,5 +1,73 @@
+/* Reset and basic styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #000000;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header img {
+  height: 50px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li a {
+  text-decoration: none;
   color: #333;
+  font-weight: bold;
+}
+
+/* Banner Section */
+main section:first-of-type {
+  background-image: url('./images/Object.png'); /* Replace with correct image if different */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 40px;
+  text-align: center;
+}
+
+main section:first-of-type h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+main section:first-of-type span {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main section:first-of-type button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
