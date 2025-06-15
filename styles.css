@@ -147,7 +147,7 @@ main section:nth-of-type(2) img {
 /* Quote section */
 main section:nth-of-type(3) {
   background-color: #C271FF;
-  color: #C271FF;
+  color: white;
   padding: 40px;
   display: flex;
   align-items: center;
