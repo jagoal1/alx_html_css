@@ -1,7 +1,14 @@
+To set the frame to a width of 1440px and a height of 3718px, and to provide a CSS style for the given HTML code, you can use the following CSS:
+
+```css
 /* Reset and basic styles */
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
+  width: 1440px;
+  height: 3718px;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 /* Header styles */
@@ -35,17 +42,52 @@ header ul {
 
 header ul li a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   font-weight: bold;
+}
+
+/* Main content styles */
+main {
+  .nav-profiles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: 
+  padding: 20px;
+  gap: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile h3 {
+  margin: 10px 0 5px;
+  font-size: 1em;
+}
+
+.profile p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+  padding: 40px;
 }
 
 /* Banner Section */
 main section:first-of-type {
-  background-image: url('./images/Object.png'); /* Replace with correct image if different */
+  background-image: url('./images/Object.png');
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 100px 40px;
+  padding: 140px 80px;
   text-align: center;
 }
 
@@ -71,3 +113,72 @@ main section:first-of-type button {
   border-radius: 4px;
   cursor: pointer;
 }
+
+/* Other sections */
+main section {
+  margin-bottom: 60px;
+}
+
+main section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Pros section */
+main section:nth-of-type(2) {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+main section:nth-of-type(2) div {
+  text-align: center;
+  width: 20%;
+}
+
+main section:nth-of-type(2) img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Quote section */
+main section:nth-of-type(3) {
+  background-color: #C271FF;
+  color: #C271FF;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+
+main section:nth-of-type(3) img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 40px;
+}
+
+/* Most popular tutorials section */
+main section:nth-of-type(4) > div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+main section:nth-of-type(4) > div > div {
+  width: 22%;
+  margin-bottom: 30px;
+}
+
+main section:nth-of-type(4) img {
+  width: 100%;
+  height: auto;
+}
+
+/* Free membership section */
+main section:nth-of-type(5) {
+  background-color: #071629;
+  
