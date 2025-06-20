@@ -1,74 +1,24 @@
-# 🎧 Headphones Landing Page
+# 🎧 Headphones Web Page
 
-A sleek, responsive landing page project built with HTML and CSS, based on a detailed Figma design. This project showcases layout precision, font styling, and responsiveness for both desktop and mobile screens.
+Welcome to the **Headphones** web page project! This responsive landing page showcases a premium headphone brand with a clean and modern design — optimized for both desktop and mobile views.
 
-## 📁 Repository Structure
+## 📱 Interactions Overview
 
-**GitHub Repository:** `alx_html_css`  
-**Project Directory:** `headphones`  
-**Key File:** `README.md`
+This project includes key responsive and interactive features:
 
----
-
-## 📌 Objective
-
-Recreate a pixel-perfect version of the **Headphones Landing Page** from a Figma design, with attention to responsive layout, font styles, and UI interactions. This project enhances your skills in:
-
-- Figma to HTML/CSS conversion
-- Responsive web design
-- Flexbox layout
-- Font integration
-- CSS transitions and hover states
+- ✅ **Responsive Design:** Switches to mobile layout when screen width is **≤ 480px**
+- 🎯 **Link Hover/Active State:** Uses highlight color `#FF6565` for better user feedback
+- 🎯 **Button Hover/Active Effect:** Slight transparency with `opacity: 0.9` on hover/active
+- 📏 **Content Layout:** Maximum width of content is `1000px`, centered on the page
 
 ---
 
-## 📐 Figma Design
+## 💻 How to Set Up in VS Code (Step-by-Step)
 
-To get started:
+Follow this guide to open, develop, and push the project using **Visual Studio Code**:
 
-1. **Create a Figma account** if you don't already have one.
-2. **Open the provided Figma project** (link given by your instructor).
-3. Click `File` > `Duplicate to your Drafts` to gain full access and inspect details.
+### 1. Clone the GitHub Repo
 
-🔗 _If the Figma file link isn't working, please request access or use the backup link provided by your instructor._
-
----
-
-## 🖋 Fonts
-
-This project uses the following fonts:
-
-- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
-- [Spin Cycle OT](https://www.fonts.com/font/spin-cycle)
-
-📥 Please install these fonts on your system to match the Figma design. If unavailable, fallbacks will apply.
-
----
-
-## 📱 Responsive Design
-
-The page is **fully responsive**. Here are key breakpoints and behaviors:
-
-- **Mobile breakpoint:** `max-width: 480px`
-  - Layout automatically adjusts to a mobile-friendly version.
-- **Content max-width:** `1000px` and **centered** on the page for larger screens.
-
----
-
-## 🎯 UI Interactions
-
-| Element | Interaction | Effect |
-|--------|-------------|--------|
-| Links  | Hover/Active | `color: #FF6565` |
-| Button | Hover/Active | `opacity: 0.9` |
-
-All interactive elements provide visual feedback per design spec.
-
----
-
-## 🚀 How to Run Locally
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/alx_html_css.git
-   cd alx_html_css/headphones
+```bash
+git clone https://github.com/<your-username>/alx_html_css.git
+cd alx_html_css/headphones
