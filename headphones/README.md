@@ -1,23 +1,13 @@
-# 🎧 Headphones Web Page
+This project implements responsive and interactive design principles as follows:
 
-Welcome to the **Headphones** web page project! This responsive landing page showcases a premium headphone brand with a clean and modern design — optimized for both desktop and mobile views.
+✅ Responsive Breakpoint:
+The web page automatically switches to a mobile-friendly layout when the screen width is 480px or less.
 
-## 📱 Interactions Overview
+🎯 Link Interactions:
+All links change color to #FF6565 on hover and active states to indicate interactivity.
 
-This project includes key responsive and interactive features:
+🎯 Button Interactions:
+Buttons apply an opacity: 0.9 on hover and active, providing visual feedback on user actions.
 
-- ✅ **Responsive Design:** Switches to mobile layout when screen width is **≤ 480px**
-- 🎯 **Link Hover/Active State:** Uses highlight color `#FF6565` for better user feedback
-- 🎯 **Button Hover/Active Effect:** Slight transparency with `opacity: 0.9` on hover/active
-- 📏 **Content Layout:** Maximum width of content is `1000px`, centered on the page
-
----
-
-
-
-
-### 1. Clone the GitHub Repo
-
-```bash
-git clone https://github.com/<your-username>/alx_html_css.git
-cd alx_html_css/headphones
+🧱 Content Layout Constraint:
+The maximum width of the page content is 1000px, and it is centered horizontally in the viewport for consistent alignment across screen sizes.
