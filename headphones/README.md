@@ -13,9 +13,8 @@ This project includes key responsive and interactive features:
 
 ---
 
-## 💻 How to Set Up in VS Code (Step-by-Step)
 
-Follow this guide to open, develop, and push the project using **Visual Studio Code**:
+
 
 ### 1. Clone the GitHub Repo
 
